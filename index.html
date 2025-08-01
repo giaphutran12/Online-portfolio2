@@ -11,7 +11,7 @@
     integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
     crossorigin="anonymous"
   />
-  <link href="./style.css" rel="stylesheet"/>
+  <link href="./style.css" rel="stylesheet" />
   <body>
     <section id="nav-bar">
       <div class="container">
@@ -20,9 +20,19 @@
             <li class="nav-item">
               <a href="#" class="nav-link active" aria-current="page">Home</a>
             </li>
-            <li class="nav-item"><a href="https://linkedin.com/edwardtran123" class="nav-link">LinkedIn</a></li>
-            <li class="nav-item"><a href="#project-intro" class="nav-link">Projects</a></li>
-            <li class="nav-item"><a href="https://github.com/giaphutran12" class="nav-link">GitHub</a></li>
+            <li class="nav-item">
+              <a href="https://linkedin.com/edwardtran123" class="nav-link"
+                >LinkedIn</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#project-intro" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/giaphutran12" class="nav-link"
+                >GitHub</a
+              >
+            </li>
             <li class="nav-item"><a href="#" class="nav-link">About</a></li>
           </ul>
         </header>
@@ -51,16 +61,19 @@
               I'm a programmer. I make some cool stuff. Check it out below!
             </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-             
-              <button  type="button" class="btn btn-primary btn-lg px-4 me-md-2 ">
-             <a href="#project-intro" class="button blue"> My projects</a>
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+                <a href="#project-intro" class="button blue"> My projects</a>
               </button>
-           
+
               <button
                 type="button"
                 class="btn btn-outline-secondary btn-lg px-4"
               >
-               <a href="./startbootstrap-resume-gh-pages/resumeBootstrap.html" class="button gray">My resume</a> 
+                <a
+                  href="./startbootstrap-resume-gh-pages/resumeBootstrap.html"
+                  class="button gray"
+                  >My resume</a
+                >
               </button>
             </div>
           </div>
@@ -73,9 +86,10 @@
           <div class="col-lg-6 col-md-8 mx-auto">
             <h1 class="fw-light">My projects</h1>
             <p class="lead text-body-secondary">
-             From a full-on RPG Game in Unreal Engine to a dynamic website, it's not much but I'm proud of what I have done.
+              From an AI that builds you a website in minutes to a full-on RPG
+              game, I'm proud of what I've done and how far I've come.
             </p>
-           <!-- <p>
+            <!-- <p>
             <a href="#" class="btn btn-primary my-2">Main call to action</a>
               <a href="#" class="btn btn-secondary my-2">Secondary action</a>
             </p>-->
@@ -89,12 +103,48 @@
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
               <div class="card shadow-sm">
+                <img src="pics/vibe2.png" class="project-image" />
+                <div class="card-body">
+                  <p class="card-text">
+                    I built Vibe - an AI that lets you create a website from
+                    just a prompt!
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        <a href="https://github.com/giaphutran12/vibe-saas"
+                          >View</a
+                        >
+                      </button>
+                      <!-- <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Edit
+                      </button> -->
+                    </div>
+                    <small class="text-body-secondary"
+                      >Next.js, React, TypeScript, Tailwind, Shadcn, TRPC,
+                      Inngest, Prisma, Neon, E2B, TanStack Query, Docker</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
                 <img src="pics/rpgGame1.jpg" class="project-image" />
                 <div class="card-body">
                   <p class="card-text">
                     I built an RPG game in Unreal Engine 5, with extensive usage
                     of good coding practice in C++, and features such as IK Rig,
-                    Motion Warping, C++ Interface, looting mechanics, and a fully functional combat system
+                    Motion Warping, C++ Interface, looting mechanics, and a
+                    fully functional combat system
                   </p>
                   <div
                     class="d-flex justify-content-between align-items-center"
@@ -104,7 +154,7 @@
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
                       >
-                      <a href="https://youtu.be/fI7PWX7bg9E">View</a>  
+                        <a href="https://youtu.be/fI7PWX7bg9E">View</a>
                       </button>
                       <!-- <button
                         type="button"
@@ -113,19 +163,63 @@
                         Edit
                       </button> -->
                     </div>
-                    <small class="text-body-secondary">Unreal Engine, C++, Blueprint</small>
+                    <small class="text-body-secondary"
+                      >Unreal Engine, C++, Blueprint</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./pics/whiteboard1.png"
+                  class="project-image"
+                  alt="whiteboard demo 1"
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    This live shift-tracking web app is for employees at Douglas
+                    College to assign their own duties. However, nobody uses it
+                    because it sucks. I come along, fix it, now everyone in the
+                    IT department is using it and thanking me.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        <a href="https://github.com/giaphutran12/Whiteboard"
+                          >View</a
+                        >
+                      </button>
+                      <!-- <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Edit
+                      </button> -->
+                    </div>
+                    <small class="text-body-secondary"
+                      >HTML, CSS, JS, PHP, MySQL, XAMPP</small
+                    >
                   </div>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card shadow-sm">
-                <img src="./pics/whiteboard1.png" class="project-image" alt="whiteboard demo 1">
+                <img src="./pics/VRBUS.png" alt="vr bus picture" />
                 <div class="card-body">
                   <p class="card-text">
-                   
-                    This dynamic website is for employees at Douglas College to assign their own duties.
-                    However, nobody uses it because it sucks. I come along, fix it, now everyone in the IT department is using it and thanking me.
+                    I built this VR Bus Simulator using Three.js and Cannon.js.
+                    You basically become a bus driver in VR and drive around the
+                    OG GTA Vice City map. First person and third person
+                    perspective supported.
                   </p>
                   <div
                     class="d-flex justify-content-between align-items-center"
@@ -135,7 +229,9 @@
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
                       >
-                       <a href="https://github.com/giaphutran12/Whiteboard">View</a>
+                        <a href="https://github.com/giaphutran12/VR_Bus_2"
+                          >View</a
+                        >
                       </button>
                       <!-- <button
                         type="button"
@@ -144,38 +240,9 @@
                         Edit
                       </button> -->
                     </div>
-                    <small class="text-body-secondary">HTML, CSS, JS, PHP, MySQL, XAMPP</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="./pics/VRBUS.png" alt="vr bus picture"/>
-                <div class="card-body">
-                  <p class="card-text">
-                    I built this VR Bus Simulator using Three.js and Cannon.js. 
-                    You basically become a bus driver in VR and drive around the 
-                    OG GTA Vice City map. First person and third person perspective supported.
-                  </p>
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        <a href="https://github.com/giaphutran12/VR_Bus_2">View</a>
-                      </button>
-                      <!-- <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button> -->
-                    </div>
-                    <small class="text-body-secondary">Three.js, Cannon.js, ThreeMeshUI, Howler.js </small>
+                    <small class="text-body-secondary"
+                      >Three.js, Cannon.js, ThreeMeshUI, Howler.js
+                    </small>
                   </div>
                 </div>
               </div>
@@ -450,7 +517,7 @@
                 </div>
               </div> -->
             <!-- </div>-->
-          </div> 
+          </div>
         </div>
       </div>
     </section>
@@ -478,10 +545,16 @@
             <h5>Connect</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
-                <a href="https://linkedin.com/edwardtran123" class="nav-link p-0 text-body-secondary">LinkedIn</a>
+                <a
+                  href="https://linkedin.com/edwardtran123"
+                  class="nav-link p-0 text-body-secondary"
+                  >LinkedIn</a
+                >
               </li>
               <li class="nav-item mb-2">
-                <a href="https://github.com/giaphutran12" class="nav-link p-0 text-body-secondary"
+                <a
+                  href="https://github.com/giaphutran12"
+                  class="nav-link p-0 text-body-secondary"
                   >GitHub</a
                 >
               </li>
@@ -530,14 +603,19 @@
                 >
               </li>
               <li class="nav-item mb-2">
-                <a href="./startbootstrap-resume-gh-pages/resumeBootstrap.html" class="nav-link p-0 text-body-secondary">Resume</a>
-              <!-- </li>
+                <a
+                  href="./startbootstrap-resume-gh-pages/resumeBootstrap.html"
+                  class="nav-link p-0 text-body-secondary"
+                  >Resume</a
+                >
+                <!-- </li>
               <li class="nav-item mb-2">
                 <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
               </li>
               <li class="nav-item mb-2">
                 <a href="#" class="nav-link p-0 text-body-secondary">About</a>
               </li> -->
+              </li>
             </ul>
           </div>
         </footer>
